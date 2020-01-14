@@ -34,7 +34,8 @@ Loop over the dictionary to get the following output:
 for key in word_definitions:
     print(f"The definition of {key} is: {word_definitions[key]}\n")
 
-# Another way to do the same thing. In Python Dictionary, items() method is used to return the list with all dictionary keys with values.
+# Tuple Unpacking- another way to do the same thing. 
+# In Python Dictionary, items() method is used to return the list with all dictionary keys with values.
 # The items() method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.
 for key, value in word_definitions.items():
     print(f"The definition of {key} is: {value}\n")
