@@ -4,10 +4,10 @@ represent words (key) and its definition (value)
 """
 word_definitions = dict()
 
-word_definitions["Pugilist"] = "Fighting with the fists; boxers, usually professionals"
-word_definitions["Littoral"] = "Of or relating to the shore of a lake, sea, or ocean"
-word_definitions["Gallimaufry"] = "A hodgepodge; jumble"
-word_definitions["Lepidopterology"] = "Branch of zoology dealing with butterflies and moths"
+word_definitions["Pugilist"] = "Fighting with the fists; boxers, usually professionals."
+word_definitions["Littoral"] = "Of or relating to the shore of a lake, sea, or ocean."
+word_definitions["Gallimaufry"] = "A hodgepodge; jumble."
+word_definitions["Lepidopterology"] = "Branch of zoology dealing with butterflies and moths."
 
 
 """
@@ -19,6 +19,8 @@ Add several more words and their definitions
 Use square bracket lookup to get the definition of two
 words and output them to the console with `print()`
 """
+print("Pugilist:", word_definitions["Pugilist"])
+print("Littoral:", word_definitions["Littoral"])
 
 
 """
